@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color: white;
+  background-color: #000;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.side_Btn:hover{
+background-color: #FC1503;
+}
