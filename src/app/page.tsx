@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import { categories } from "@/app/utils/constants";
-import SideHeader from "./Components/SideHeader";
-import GetData from "./utils/fetch";
+import SideHeader from "../Components/SideHeader";
+import GetData from "../utils/fetch";
 import { useEffect, useState } from "react";
-import Video from "./Components/Video";
+import Video from "../Components/Video";
 export default function Home() {
   const [Selected, setSelected] = useState("New");
   const [data, setData] = useState([]);
