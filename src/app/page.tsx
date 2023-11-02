@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { categories } from "@/app/utils/constants";
 import SideHeader from "../Components/SideHeader";
-import GetData from "./utils/fetch";
+import GetData from "../app/utils/fetch";
 import { useEffect, useState } from "react";
 import Video from "../Components/Video";
 export default function Home() {
