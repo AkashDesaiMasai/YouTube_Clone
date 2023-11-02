@@ -25,5 +25,9 @@
     "postcss": "^8",
     "tailwindcss": "^3",
     "typescript": "^5"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/AkashDesaiMasai/YouTube_Clone.git",
+  "author": "Akash Desai <132215036+AakashDesai3105@users.noreply.github.com>",
+  "license": "MIT"
 }
