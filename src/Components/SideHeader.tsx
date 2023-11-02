@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { categories } from "../utils/constants";
+import { categories } from "../app/utils/constants";
 
 const SideHeader = ({ Selected, setSelected }) => {
   //console.log(setSelected)
@@ -10,6 +10,7 @@ const SideHeader = ({ Selected, setSelected }) => {
         {categories.map((e) => (
           <button
             onClick={(): void => setSelected(e.name)}
+            key={e.name}
             className="side_Btn mx-2 my-1  rounded-full  px-8 py-2"
             style={{ background: (Selected == e.name && "#FC1503") || "" }}
           >
